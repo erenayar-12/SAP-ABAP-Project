@@ -2,11 +2,11 @@
 ##### In this project, I aimed to create a system to organize the usage of the book and member database. There are 2 main screens that displays Members and Books. However there are several screens as dialog boxes as well. We will see them in the upcoming sections in this README file.
 
 ### TABLES
-##### We have 3 tables: Member, Book, Owner. Member's attributes are ID (primary key), name, surname, active/passive. Book's attributes are ID(primary key), name, author, genre. Owner's attributes are User ID(primary key), book ID(Primary key), borrow date, return date.
+###### We have 3 tables: Member, Book, Owner. Member's attributes are ID (primary key), name, surname, active/passive. Book's attributes are ID(primary key), name, author, genre. Owner's attributes are User ID(primary key), book ID(Primary key), borrow date, return date.
 
 ### MEMBER SCREEN
-##### In this screen, we see the current user's ID, Name, Surname and Active/Passive situation. Only active members are displayed. Also, there is an additional small column in the leftmost part which allows user to select a row (or member).
-##### At the top-right of the page there is a dropdown menu named 'Choose an option'. These options are 'Add a member', 'Delete a Member', 'Make Passive', 'Give Book' and 'Return Book'.
+###### In this screen, we see the current user's ID, Name, Surname and Active/Passive situation. Only active members are displayed. Also, there is an additional small column in the leftmost part which allows user to select a row (or member).
+###### At the top-right of the page there is a dropdown menu named 'Choose an option'. These options are 'Add a member', 'Delete a Member', 'Make Passive', 'Give Book' and 'Return Book'.
 
 ### BOOK SCREEN
 ###### Book screen shows us the books in the database. We see the books' names, authors, and genres.
